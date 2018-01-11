@@ -18,41 +18,25 @@ Diberikan variable name, age, dan money. Dipersilahkan mengganti nilai dari 3 va
 */
 
 // SKELETON CODE (Code Sample)
-
 var nama = 'david';
 var age = 17; // silakan berikan nilai
 var money = 50000; // silakan berikan nilai
 
-
-
 // Tulis kode selanjutnya disini
-
 if (nama === '') {
-
   console.log('Anda tidak boleh masuk!');
-
-
 } else if (nama !== '') {
-
-  if (age < 17) {
-
+  if (age <= 17) {
     var minuman = 'juice';
     var harga = 50000;
-
   } else {
-
     minuman = 'anggur';
     harga = 300000;
   }
   if (harga > money) {
-
     console.log("Uang tidak cukup. Anda harus pulang.");
-
   } else {
-
     var sisaUang = money - harga;
-    console.log("Anda bisa pesan minum. Sisa uang anda: " + sisaUang); //, dan ganti [...] dengan sisa uang yang telah dikurangi oleh harga minuman.)
+    console.log("Anda bisa pesan minum. Sisa uang anda: " + sisaUang);
   }
-
-
 }
