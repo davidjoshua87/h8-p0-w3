@@ -32,8 +32,7 @@ function remainder(num1, num2) {
   var hasil = (num1 % num2);
   return hasil;
 }
-console.log(remainder(7, 3));
-
+console.log(remainder(7, 3)); //1
 
 function concats(str1, str2, str3) {
   // hanya code disini
@@ -41,8 +40,7 @@ function concats(str1, str2, str3) {
   var gabungkata = str1 + "-" + str2 + "-" + str3;
   return gabungkata;
 }
-console.log(concats("i", "am", "developer"));
-
+console.log(concats("i", "am", "developer")); //'i-am-developer'
 
 function removeOdds(numArr) {
   // hanya code disini
@@ -54,5 +52,4 @@ function removeOdds(numArr) {
   }
   return arrGenap;
 }
-
-console.log(removeOdds([1, 3, 5, 6, 8, 7, 2, 4]));
+console.log(removeOdds([1, 3, 5, 6, 8, 7, 2, 4])); //[6, 8, 2, 4]
