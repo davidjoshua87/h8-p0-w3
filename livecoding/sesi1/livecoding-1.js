@@ -23,26 +23,23 @@ Setelah saldo mencukupi, ibu Tini dihadapkan pilihan untuk membeli jenis daging 
 
 Di akhir program, tampilkan di log "Ibu Tini membeli <nilai Shopping Bag> dan sisa uang: <nilai sisa saldo>"
 */
-
-
-
 // buat kode disini!
-
 var debitCardName = 'david'; // nama debit card, isi sendiri
 var debitCardAmount = 250000; // saldo debit card, isi sendiri
 var shoppingBag = 'beef';
 
 if (!debitCardName) {
   console.log('Tidak bisa belanja. Pulang lagi deh');
-} else if (debitCardAmount <= 10000) {
+}
+if (debitCardAmount <= 10000) {
   console.log('Tidak bisa belanja. Saldo minimal 10.000');
 } else if (debitCardAmount >= 200000) {
-  console.log(shoppingBag +': '+(debitCardAmount - 200000));
+  console.log(shoppingBag + ': ' + (debitCardAmount - 200000));
 } else if (debitCardAmount >= 100000) {
-  console.log(shoppingBag+': '+(debitCardAmount - 100000));
+  console.log(shoppingBag + ': ' + (debitCardAmount - 100000));
 } else if (debitCardAmount >= 50000) {
-  console.log(shoppingBag+': '+(debitCardAmount - 50000));
+  console.log(shoppingBag + ': ' + (debitCardAmount - 50000));
 } else if (debitCardAmount >= 10000) {
-  console.log(shoppingBag+': '+(debitCardAmount - 10000));
+  console.log(shoppingBag + ': ' + (debitCardAmount - 10000));
 }
-console.log('Ibu Tini membeli '+ shoppingBag +' dan sisa uang: ' + debitCardAmount);
+console.log('Ibu Tini membeli ' + shoppingBag + ' dan sisa uang: ' + debitCardAmount);
