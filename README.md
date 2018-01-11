@@ -1,1 +1,2 @@
-# h8-p0-w3
+# student-Hacktiv8
+Segala yang berhubungan menjadi student di Hacktiv8
